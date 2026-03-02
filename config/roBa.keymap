@@ -81,7 +81,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp ESC                            &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp A             &kp S         &kp D         &kp F                        &kp G        &kp ESC                            &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp QUESTION
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp TAB                            &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp LS(LG(S))
             >;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&trans     &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LS(Q))      &kp LC(LS(F4))  &kp LC(LS(F5))
-&kp TILDE  &kp DOLLAR       &kp PERCENT   &kp CARET             &trans                 &trans      &kp F13  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON      &kp COLON       &kp NON_US_BACKSLASH
-&kp SQT    &kp EXCLAMATION  &kp AT_SIGN   &kp POUND             &trans                 &trans      &trans   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp SQT         &kp PIPE
-&trans     &trans           &trans        &trans                &trans                 &trans      &trans   &trans                                                                          &kp LC(LS(F12))
+&kp QUESTION  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LS(Q))      &kp LC(LS(W))  &kp LC(LS(E))
+&kp TILDE     &kp DOLLAR       &kp PERCENT   &kp CARET             &kp NON_US_BACKSLASH   &trans      &kp F13  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON      &kp COLON      &kp LS(LC(S))
+&kp SQT       &kp EXCLAMATION  &kp AT_SIGN   &kp POUND             &kp PIPE               &trans      &trans   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp SQT        &kp LS(LC(Z))
+&trans        &trans           &trans        &trans                &trans                 &trans      &trans   &trans                                                                         &kp LC(LS(R))
             >;
         };
 
